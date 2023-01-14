@@ -24,7 +24,7 @@ services:
       - MQTT_PORT=1883 # (default) MQTT port
       - MQTT_USER=user # (required) MQTT user
       - MQTT_PASS=pass # (required) MQTT password
-      - MQTT_TOPIC_PREFIX=home # (default) prefix for MQTT topics
+      - MQTT_TOPIC_PREFIX=home # (required) prefix for MQTT topics
 ```
 
 Two topics will be sent to MQTT every second:
